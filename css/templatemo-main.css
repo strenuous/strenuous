@@ -10,6 +10,14 @@ v2.0 | 20110126
 License: none (public domain)
 
 */
+@font-face {
+    font-family: "neuropol";
+    src: url("../fonts/neuropol.ttf");
+}
+@font-face {
+    font-family: "quicksandbold";
+    src: url("../fonts/Quicksand-Bold.otf");
+}
 
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
@@ -107,7 +115,7 @@ h1, h2, h3, h4, h5, h6 {
 	Header Styles 
 --------------------------------------------------------*/
 .top-header {
-  background: #e3722e;
+  background: #ae351f;
   color: white;
   padding: 10px 0;
 }
@@ -154,7 +162,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 .main-header .logo {
   margin-top: 5px;
-  width:210px;
+  width:240px;
 }
 .main-header .logo h1 {
   font-size: 28px;
@@ -162,8 +170,10 @@ h1, h2, h3, h4, h5, h6 {
   text-transform: uppercase;
 }
 .main-header .logo h1 a {
-  color: #444444;
+  color: #004a8f;
+  font-family:"neuropol";
 }
+
 .main-header .menu {
   margin-top: 10px;
 }
@@ -180,12 +190,12 @@ h1, h2, h3, h4, h5, h6 {
   border-radius: 3px;
 }
 .main-header .menu ul li a.current {
-  background: #e3722e;
+  background: #004a8f;
   color: white;
 }
 
 .main-header-shrink {
-  padding: 25px 0;
+  padding: 5px 0;
   top: 0;
 }
 
@@ -241,7 +251,7 @@ h1, h2, h3, h4, h5, h6 {
   display: block;
   width: 70px;
   height: 4px;
-  background: #e3722e;
+  background: #ae351f;
   margin: 0 auto;
 }
 
@@ -252,7 +262,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .mainBtn {
-  background-color: #e3722e;
+  background-color: #004a8f;
   color: white;
   display: inline-block;
   text-transform: uppercase;
@@ -277,7 +287,7 @@ h1, h2, h3, h4, h5, h6 {
   clear: both;
 }
 #services .service-item .service-header i {
-  color: #e3722e;
+  color: #004a8f;
   font-size: 24px;
   float: left;
   margin-right: 25px;
@@ -482,7 +492,7 @@ h1, h2, h3, h4, h5, h6 {
   font-size: 14px;
 }
 #contact .contact-info span i {
-  color: #e3722e;
+  color: #004a8f;
   font-size: 16px;
   margin-right: 12px;
 }
@@ -539,10 +549,10 @@ h1, h2, h3, h4, h5, h6 {
 	Footer Styles 
 --------------------------------------------------------*/
 .site-footer {
-  margin-top: 100px;
-  background-color: #e3722e;
+  margin-top: 50px;
+  background-color: #ae351f;
   color: white;
-  padding: 25px 0;
+  padding: 5px 0;
 }
 .site-footer p {
   margin-top: 10px;
