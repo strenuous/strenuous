@@ -132,6 +132,7 @@ function sendEmail(){
 					$('#sendmessage').text('Your message has been sent. Thank you!').show();
 					$('#name-id').val('');
 					$('#email-id').val('');
+					$('#phone-no').val('')
 					$('#subject-id').val('');
 					$('#message').val('');
 				  },
